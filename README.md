@@ -2,7 +2,7 @@
 Phase 4 project for Flatiron School
 
 
-![image1](./chest_xray/sample/BACTERIAL/BACTERIA-2034017-0005.jpeg)
+![image1]('./chest_xray/sample/BACTERIAL/BACTERIA-2034017-0005.jpeg')
 
 **Authors**: Eliot Kmiec, Stefano Caruso
 
