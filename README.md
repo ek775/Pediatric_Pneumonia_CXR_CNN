@@ -2,7 +2,7 @@
 Phase 4 project for Flatiron School
 
 
-![image1]('./chest_xray/sample/BACTERIAL/BACTERIA-2034017-0005.jpeg')
+![alt text](https://github.com/ek775/Pediatric_Pneumonia_CXR_CNN/blob/main/./chest_xray/sample/BACTERIAL/BACTERIA-2034017-0005.jpeg?raw=true)
 
 **Authors**: Eliot Kmiec, Stefano Caruso
 
