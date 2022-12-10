@@ -8,7 +8,9 @@ Phase 4 project for Flatiron School
 
 ## Overview
 
-For this project we are going to analyze by using data from Mendeley Lab . This dataset contained a huge amount of information on patients with X-ray results containing peumonia, some where viral or bacteria infections. We set our stakeholders as Doctors without boarders looking to find patterns in healhty patients or infected with pneumonia. Our job would be identify and predict which patients have the illness or not. Then it's about modeling: We built numerous models ultimately finding the most useful results. Then we tried different hyperparameters to get the best model with best data accurancy and recall lower the false negatives to lower the chances we miss a patient with pneumonia.
+For this project we performed image classification on pediatric chest x-rays by using data from Mendeley Lab . This dataset contained X-ray images of patients with lower respiratory tract infections caused by both viruses and bacteria. Our hypothetical stakeholder for this project was Doctors without borders, and we were tasked with looking to find patterns in healthy patients and those infected with pneumonia. Our job would be identify and predict which patients have the illness or not. 
+
+Then it's about modeling: We built numerous models ultimately finding the most accurate results. Then we tried different hyperparameters to get the best model with best data accurancy and recall lower the false negatives to lower the chances we miss a patient with pneumonia.
 
 93% accuracy binary cnn model
 84% accuracy multiclass cnn model, 0.94 AUC
@@ -19,26 +21,26 @@ For this project we are going to analyze by using data from Mendeley Lab . This 
 
 ## Business Problem
 
-Detecting illness and lower the death rate. Utilizing "human in the loop" both machine learning and human analyze on the same x-ray images. Speed up the diagnosis with limited resources, without sacrificing accuracy/safety. 
+Detecting illness and decrease time for interpretation of chest x-rays. Utilizing "human in the loop" both machine learning and human analyze on the same x-ray images. Speed up the diagnosis with limited resources, without sacrificing accuracy/safety. 
 
 
 ## Data
 
-Mendeley, over 5000+ x-ray images of pateints analyzed 
+Mendeley, over 5000+ x-ray images of patients analyzed 
 
 
 
 
 ## Methods
 
-Load images, generator to convert into grayscale. Create both binary and multi class models to detect the illness. Predict if ill or healhty. 
+Load images, generator to convert into pixel values. Create both binary and multi class models to detect the illness and classify. Models were tuned based on their validation performance. An AWS EC2 server was used to assist in computations for modeling. Returns probabilities of each type of pneumonia to assist in diagnosis. 
 
 
 
 
-## Limitation
+## Limitations
 
-Additional resouce such as computational power would have allowed us to train models faster and more diverse hyperparameters to maximize our scores.
+Additional resouces such as computational power would have allowed us to train models faster and assess more diverse hyperparameters to maximize our model performance. 
 
 
 ## Conclusions
@@ -48,7 +50,7 @@ Additional resouce such as computational power would have allowed us to train mo
 
 ## Next steps
 
-Create a Application for the Machine Learning model to annotate images for the radiologist to review and approve.
+Create an Application for the Machine Learning model to annotate images for the radiologist to review and approve.
 
 
 ## For More Information
